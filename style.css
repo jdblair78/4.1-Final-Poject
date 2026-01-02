@@ -1,0 +1,50 @@
+* {
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.purple {
+    color: #6030b1;
+}
+
+/* NAV */
+
+nav {
+   
+   align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1400;
+    height: 100px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    height: 40px;
+    width: 150px;
+}
+
+.nav__link {
+    height: 20px;
+    width: 20px;
+}
+
+.nav__links {
+    width: 100%;
+    max-width: 430px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    font-size: 18px;
+}
