@@ -1,5 +1,5 @@
 * {
-    font-family: 'roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -102,36 +102,7 @@ nav {
 
 }
 
-/*
 
-2nd PAGE BROWSER
-
-*/
-
-#browswer {
-    width: 100%;
-}
-
-.browser__wrapper {
-    max-width: 100%;
-    max-width: 1200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px;
-}
-
-.browser__title {
-    padding-bottom: 40px;
-    letter-spacing: .2em;
-}
-
-.browser__input {
-    width: 100%;
-    max-width: 600px;
-    border-radius: 50px;
-    
-}
 
 /* HEADER */
 
@@ -163,20 +134,7 @@ nav {
     margin-bottom: 40px;
 }
 
-.overlay {
-    background-image: url(../img/carpark.8742e246.jpeg);
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
-}
+
 
 .search__wrapper {
     width: 100%;
@@ -220,10 +178,75 @@ input:hover {
     transform: scale(1.03);
 }
 
+
 .fa-magnifying-glass {
     font-size: 24px;
 }
 
-.img {
-    max-width: fit-content;
+
+/*
+
+2nd PAGE BROWSER
+
+*/
+
+#browswer {
+    width: 100%;
+}
+
+.browser__wrapper {
+    max-width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.browser__title {
+    padding-bottom: 40px;
+    letter-spacing: .2em;
+}
+
+.browser__input {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 50px;
+    
+}
+
+.overlay {
+    background-image: url(../img/carpark.8742e246.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
+/*
+
+RESULTS
+
+*/
+
+.results__wrapper {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 175px;
+}
+
+.results__title {
+    display: inline-block;
+    line-height: 1.25;
 }

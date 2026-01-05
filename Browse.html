@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="index" href="index.html">
     <script src="index.js" defer></script>
     <script
       src="https://kit.fontawesome.com/616ad5bc36.js"
       crossorigin="anonymous"
     ></script>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-    </style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
 </head>
 <body>
     <secion id="browser">
@@ -22,12 +23,12 @@
         </figure>
         <ul class="nav__links">
           <li class="nav__link ">
-            <a href="#" 
+            <a href="index.html" 
             class="nav__link--anchor">
             <span class="purple">Home</span></li>
             </a>
           <li class="nav__link ">
-             <a href="#vehicle" 
+             <a href="#" 
             class="nav__link--anchor">
             <span class="purple">Find Your Vehicle</span></li>
             </li>
@@ -43,6 +44,17 @@
                 placeholder="Search by Model, Make or Keyword">
                 <i class="fa-solid fa-magnifying-glass"></i>
       </div>
-    </secion>
+      <section id="results">
+          <div class="results__wrapper">
+              <h1 class="results__title">Search Results:</h1>
+              <div class="price__filter">
+                  <h4 class="price">Price range: <span class="purple"> $0 to $100,000</span></h4>
+                  <div class="price__slider">
+                      
+                </div>
+            </div>
+        </div>
+    </section>
+</secion>
 </body>
 </html>
